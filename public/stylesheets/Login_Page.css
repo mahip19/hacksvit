@@ -1,0 +1,132 @@
+*{
+    margin:0px ;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.background{
+    color: aqua;
+    background-image: url("Bck1.jpg");
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    opacity:1;
+    filter: blur(3px);
+    filter: brightness(40%);
+    z-index: -2;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+}
+.para1::before{
+    content:"";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height:70px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    z-index: -1;
+}
+.form1{
+    display:flex;
+    /* border: 2px solid white; */
+    padding-right: 65px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    /* position:absolute; */
+    justify-content:right;
+    z-index: 2;
+}
+.f1{
+    font-family: 'Comfortaa', cursive;
+    width: 200px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.f2{
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: rgb(219, 173, 67);
+}
+.f2:hover{
+    cursor:pointer;
+    background-color: rgb(218,162,32);
+}
+
+.in2{
+    margin-left: 14px;
+    height: 30px;
+}
+
+#signup::before{
+    content: "";
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    /* border-color: aqua; */
+    z-index: -1;
+}
+.sign{
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    /* color: rgba(220, 220, 96, 0.959); */
+    color: 	rgb(218,162,32);
+    font-size: 38px;
+    justify-content: center;
+    margin-top: 180px;
+    /* margin-right: 190px; */
+ }
+.form2{
+    margin-top: 75px;
+    /* margin-right: 240px; */
+}
+.form2 input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    justify-content: center; 
+    align-items: center;
+}
+.in3{
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.in3 input{
+    padding-left: 10px;
+    width: 300px;
+}
+/* #in4{
+    color: aliceblue;
+    font-size: 22px;
+    margin-right: 5px;
+}
+.in4 input{
+    margin-top: 20px;
+    width: 23px;
+} */
+
+ .signupbtn{
+    font-size: 15px;
+    padding: 8px;
+    background-color: rgb(219, 173, 67);
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-top: 30px; 
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 125px; */
+    border-radius: 10px;
+    /* border: 2px solid white; */
+ }
+.signupbtn:hover{
+     cursor:pointer;
+     background-color: rgb(218,162,32);
+}
